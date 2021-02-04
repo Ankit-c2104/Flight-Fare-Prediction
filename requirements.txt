@@ -46,7 +46,7 @@ nbformat==5.1.2
 nest-asyncio==1.5.1
 notebook==6.2.0
 packaging==20.9
-pandas==1.2.1
+#pandas==1.2.1
 pandas-profiling==2.8.0
 pandasgui==0.2.5.1
 pandocfilters==1.4.3
