@@ -45,7 +45,6 @@ nbconvert==6.0.7
 nbformat==5.1.2
 nest-asyncio==1.5.1
 notebook==6.2.0
-numpy==1.20.0
 packaging==20.9
 pandas==1.2.1
 pandas-profiling==2.8.0
