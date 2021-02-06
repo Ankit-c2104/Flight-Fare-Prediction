@@ -27,4 +27,6 @@ object datatype and cannot be understand by the model
 
 12. app1.py is done using html and css for deployment in heroku
 
-13. web : gunicorn app : app #for streamlit i.e for app.py
+13. web: gunicorn app:app #for htm,css i.e for app.py
+
+14. # for streamlit - run.py
