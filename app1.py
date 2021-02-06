@@ -7,12 +7,12 @@ import pandas as pd
 app1 = Flask(__name__)
 classifier = pickle.load(open("flight_fareprediction_xgb.pkl", "rb"))
 
-@app1.route("/")
+@app1.route("/", methods = ['GET'])
 #@cross_origin()
 def home():
     return render_template("home.html")
 
-@app1.route("/predict", methods = ['GET', 'POST'])
+@app1.route("/predict", methods = ['POST'])
 #@cross_origin()
 def predict():
     if request.method == "POST":
