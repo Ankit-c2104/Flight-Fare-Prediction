@@ -9,7 +9,8 @@ Jinja2==2.11.3
 joblib==1.0.0
 MarkupSafe==1.1.1
 missingno==0.4.2
-numpy==1.20.0
+#numpy==1.20.0
+numpy==1.18.1  #changed
 pandas==1.2.1
 pandas-profiling==2.8.0
 pandasgui==0.2.5.1
