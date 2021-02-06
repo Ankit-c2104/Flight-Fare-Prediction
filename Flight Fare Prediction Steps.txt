@@ -22,3 +22,7 @@ object datatype and cannot be understand by the model
 9. Handling the categorical columns by performing OneHotEncoding
 
 10. Performing the same preprocessing steps on the test data
+
+11. app.py is done using Streamlit, couldn't deploy in heroku as the size was > 500 mb
+
+12. app1.py is done using html and css for deployment in heroku
