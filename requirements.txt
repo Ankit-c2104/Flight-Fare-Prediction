@@ -2,6 +2,7 @@ certifi==2020.12.5
 click==7.1.2
 confuse==1.1.0
 Flask==1.1.2
+gunicorn==20.0.4
 htmlmin==0.1.12
 ImageHash==4.1.0
 itsdangerous==1.1.0
@@ -9,10 +10,8 @@ Jinja2==2.11.3
 joblib==1.0.0
 MarkupSafe==1.1.1
 missingno==0.4.2
-#numpy==1.20.0
-numpy==1.18.1  #changed
-#pandas==1.2.1
-pandas==1.0.1 #changed
+numpy==1.18.1
+pandas==1.0.1
 pandas-profiling==2.8.0
 pandasgui==0.2.5.1
 phik==0.10.0
@@ -22,8 +21,7 @@ python-dateutil==2.8.1
 pytz==2021.1
 requests==2.23.0
 scikit-learn==0.24.1
-#scipy==1.6.0
-scipy==1.4.1  #changed
+scipy==1.4.1
 six==1.15.0
 sklearn==0.0
 tangled-up-in-unicode==0.0.6
