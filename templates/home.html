@@ -29,13 +29,14 @@
     </nav>
 
     <br><br><br>
-
+	
+	<h3>{{ prediction_text }}</h3>
 
     <div class="container">
 
 
 
-        <form action="\predict" method="post">
+        <form action="/predict" method="post"> <!--#changed / from \ -->
 
 
             <div class="row">
@@ -77,7 +78,8 @@
                                 <option value="Kolkata">Kolkata</option>
                                 <option value="Mumbai">Mumbai</option>
                                 <option value="Chennai">Chennai</option>
-                            </select>
+								<option value="Banglore">Banglore</option>   <!--change -->
+								</select>
                         </div>
                     </div>
                 </div>
@@ -92,6 +94,7 @@
                                 <option value="New Delhi">New Delhi</option>
                                 <option value="Hyderabad">Hyderabad</option>
                                 <option value="Kolkata">Kolkata</option>
+								<option value="Banglore">Banglore</option>   <!--change -->
                             </select>
                         </div>
                     </div>
@@ -111,11 +114,14 @@
                             <h5 class="card-title">Stopage</h5>
                             <!-- Total Stops -->
                             <select name="stops" required="required">
-                                <option value="0">Non-Stop</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
+                                <option value="4">Non-Stop</option>    <!-- Changed  -->
+																		<!--# Stops - 'Non Stop', '1 Stop', '2 Stop', '3 Stop', '4 Stop'
+																		# before label_encoding - 'non-stop', '2 stops', '1 stop', '3 stops', '4 stops'
+																		# after label_encoding - 4, 1, 0, 2, 3 -->
+                                <option value="0">1 Stop</option>
+                                <option value="1">2 Stop</option>
+                                <option value="2">3 Stop</option>
+                                <option value="3">4 Stop</option>
                             </select>
                         </div>
                     </div>
@@ -132,12 +138,12 @@
                                 <option value="Multiple carriers">Multiple carriers</option>
                                 <option value="SpiceJet">SpiceJet</option>
                                 <option value="Vistara">Vistara</option>
-                                <option value="Air Asia">Air Asia</option>
-                                <option value="GoAir">GoAir</option>
+                               <!-- <option value="Air Asia">Air Asia</option> -->
+                                <!--<option value="GoAir">GoAir</option> 
                                 <option value="Multiple carriers Premium economy">Multiple carriers Premium economy
                                 </option>
                                 <option value="Jet Airways Business">Jet Airways Business</option>
-                                <option value="Vistara Premium economy">Vistara Premium economy</option>
+                                <option value="Vistara Premium economy">Vistara Premium economy</option> -->
                                 <option value="Trujet">Trujet</option>
                             </select>
                         </div>
@@ -156,7 +162,7 @@
 
         <br>
         <br>
-        <h3>{{ prediction_text }}</h3>
+        <!--<h3>{{ prediction_text }}</h3> -->
 
         <br>
         <br>
