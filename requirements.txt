@@ -22,7 +22,8 @@ python-dateutil==2.8.1
 pytz==2021.1
 requests==2.23.0
 scikit-learn==0.24.1
-scipy==1.6.0
+#scipy==1.6.0
+scipy==1.4.1  #changed
 six==1.15.0
 sklearn==0.0
 tangled-up-in-unicode==0.0.6
