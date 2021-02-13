@@ -1,6 +1,6 @@
 # Flight-Fare-Prediction
 
-The purpose of this project is to learn and apply different feature engineering techniques on the data, visualize, analyze and make conclusion based on the visualization and also to learn deployment using Heroku. another aim was to leart doing front-end using Streamlit.
+The purpose of this project is to learn and apply different feature engineering techniques on the data, visualize, analyze and make conclusion based on the visualization and also to learn deployment using Heroku. Another aim is to learn doing front-end using Streamlit.
 
 
 
