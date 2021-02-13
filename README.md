@@ -21,7 +21,7 @@ The purpose of this project is to learn and apply different feature engineering 
   object datatype and cannot be understand by the model
 
 7.extracting Arrival_Hour and Arrival_min from Dep_Time using pd.datetime as Dep_Time is of 
-object datatype and cannot be understand by the model
+  object datatype and cannot be understand by the model
 
 8. Handling the Duration column
 
